@@ -1,0 +1,28 @@
+h1{
+    background-color: black;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 12px 12px blue;
+}
+p{
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
+.home{
+    background-color: black;
+    display: flex;
+    color: white;margin-right: 50px;
+    margin-left: 50px;
+    padding: 30px;
+}
+img{
+    margin-right:30px ;
+    border-radius: 30px;
+  opacity: 0.8;
+}
+
+.home:hover{
+    background-color: mediumpurple;
+}

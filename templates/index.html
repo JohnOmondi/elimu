@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homepage</title>
+    {%load static%}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+</head>
+<body>
+<h1 class="text-warning">Elimu Application</h1>
+
+<a href="{% url 'form' %}" class="btn btn-primary">form</a>
+<a href="{% url 'gallery' %}" class="btn bg-danger">gallery</a>
+<a href="{% url 'info' %}" class="btn btn-outline-warning">info</a>
+
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi architecto, aspernatur culpa distinctio dolore, doloremque ducimus, facilis incidunt laudantium minima nisi nulla obcaecati praesentium reprehenderit sed ullam. Consequatur, minus.</span><span>Animi architecto beatae blanditiis commodi consequatur corporis dolorum eaque esse ex, explicabo maiores optio placeat, praesentium quas qui quia quod repudiandae tenetur unde voluptate? Accusamus deleniti esse eveniet libero possimus!</span></p>
+
+
+<div class="home">
+    <img src="{% static 'assets/img/d4.jpg' %}" alt="">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consequuntur cumque harum labore quas sequi veritatis? Delectus eum explicabo fuga fugit nemo numquam rerum suscipit voluptatibus. Dolor eligendi libero vero.</p>
+    
+</div>
+
+</body>
+</html>

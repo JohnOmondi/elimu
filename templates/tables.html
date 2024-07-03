@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tables</title>
+    {%load static%}
+    <link rel="stylesheet" href="{% static 'css/table.css' %}">
+
+</head>
+<body>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Actor</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>bluth</td>
+        <td>george</td>
+        <td>
+            <img src="{% static 'assets/img/ac1.jpg' %}" alt="">
+        </td>
+        <td>
+            <button style="background-color: #997404">Edit</button>
+        </td>
+        <td> <button style="background-color: #b02a37">Delete</button></td>
+
+    </tr>
+
+
+
+<tr>
+        <td>2</td>
+        <td>Lucille</td>
+        <td>bluth</td>
+        <td>
+            <img src="{% static 'assets/img/ac2.jpg' %}" alt="">
+        </td>
+        <td>
+            <button style="background-color: #997404">Edit</button>
+        </td>
+        <td> <button style="background-color: #b02a37">Delete</button></td>
+
+    </tr>
+
+
+<tr>
+        <td>3</td>
+        <td>Oscar</td>
+        <td>bluth</td>
+        <td>
+            <img src="{% static 'assets/img/ac3.jpg' %}" alt="">
+        </td>
+        <td>
+            <button style="background-color: #997404">Edit</button>
+        </td>
+        <td> <button style="background-color: #b02a37">Delete</button></td>
+
+    </tr>
+
+
+
+</table>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+   table,td,th{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        table{
+            width:60%;
+            height: 250px;
+
+        }
+        td{
+            padding-left: 20px;
+        }
+
+   img{
+       height: 60px;
+       width: 60px;
+   }
